@@ -1,6 +1,6 @@
 # Q-Learning-Project
 
-This project makes a maze using Q-Learning.
+## This project makes a maze using Q-Learning.
 
 Created by Dhruv Sharma
 
