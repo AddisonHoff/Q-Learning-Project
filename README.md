@@ -2,7 +2,7 @@
 
 ## This project makes a maze using Q-Learning.
 
-Created by Dhruv Sharma
+Created by Dhruv Sharma and Jim Fahey
 
 ## 1. What is Q Learning? What does the Q stand for (and what about the "Learning")?
 ### a. Q learning is a reinforcement learning algorithm that learns the most desirable set of decisions to achieve a given outcome.
