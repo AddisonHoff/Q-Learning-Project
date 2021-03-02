@@ -30,7 +30,7 @@ public class Maze {
     Random r = new Random();
 
 
-    public void Generate(){
+    public void Generate(){ //make maze
         boolean startGened = false;
         boolean endGened = false;
         boolean fullyGened = false;
@@ -89,7 +89,7 @@ public class Maze {
         }
     }
 
-    public void Print(){
+    public void Print(){ //prints maze in driver
         for(int i = 0; i < y; i++){
             for(int j = 0; j < x; j++){
                 System.out.print(map[j][i] + ",");

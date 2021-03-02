@@ -25,7 +25,7 @@ public class Solver {
 
     Maze m;
 
-    public void Solve(){
+    public void Solve(){ //solves maze
 
         int currX = m.startx;
         int currY = m.starty;
@@ -81,7 +81,7 @@ public class Solver {
         return coordinateArray;
     }
 
-    public void printSolution(){
+    public void printSolution(){ //prints maze solution to driver using ArrayLists
         for(int i = 0; i < coordinateArray.size(); i++) {
             System.out.println(coordinateArray.get(i));
             System.out.println("|");
