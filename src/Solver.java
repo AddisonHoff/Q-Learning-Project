@@ -1,3 +1,9 @@
+/* Dhruv Sharma, Jim Fahey
+2/10/2021
+3/1/2021
+This class solves the maze.
+*/
+
 import java.util.*;
 
 public class Solver {

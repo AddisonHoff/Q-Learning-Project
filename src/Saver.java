@@ -1,3 +1,9 @@
+/* Dhruv Sharma, Jim Fahey
+2/10/2021
+3/1/2021
+This class saves the solutions of the mazes to a file.
+*/
+
 import java.io.*;
 import java.util.Arrays;
 
@@ -16,7 +22,7 @@ public class Saver{
 
     String saveFile;
 
-    public void Save(){
+    public void Save(){ //save the solutions of the mazes to the desired saveFile
         for(int i = 0; i < numOfMazes; i++){
             Solver s = new Solver(x,y);
             try (PrintWriter out = new PrintWriter(saveFile + ".txt")){

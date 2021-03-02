@@ -1,3 +1,9 @@
+/* Dhruv Sharma, Jim Fahey
+2/10/2021
+3/1/2021
+This class is a driver for the maze.
+*/
+
 import java.util.Scanner;
 
 public class Driver {
