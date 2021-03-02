@@ -11,7 +11,7 @@ public class Driver {
 
         Maze m = new Maze(x,y);
         m.Generate();
-        m.Print();
+        m.Print(); //display unsolved maze
 
         System.out.println("Solve");
 
@@ -27,6 +27,6 @@ public class Driver {
 
         Saver saver = new Saver(x, y, numOfMazes, file);
 
-        saver.Save();
+        saver.Save(); //save to file
     }
 }
